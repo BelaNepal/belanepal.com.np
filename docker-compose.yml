@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  bela-web:
+    container_name: bela-landing-page
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "80:80"
+    restart: always
+    environment:
+      - NODE_ENV=production
+    # If using SSL via Certbot associated with Nginx in a sidecar or reverse proxy, configure here.
