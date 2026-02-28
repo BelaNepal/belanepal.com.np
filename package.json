@@ -12,7 +12,7 @@
   ],
   "license": "ISC",
   "author": "Bela Nepal",
-  "type": "commonjs",
+  "type": "module",
   "main": "index.js",
   "directories": {
     "lib": "lib"
